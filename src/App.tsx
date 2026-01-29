@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  var apiUrl = import.meta.env.VITE_API_URL;
+  let apiUrl = import.meta.env.VITE_API_URL;
   return (
     <>
       <h1>Vite + React Learning App</h1>
