@@ -4,7 +4,7 @@ function App() {
   const apiUrl = import.meta.env.VITE_API_URL;
   return (
     <>
-      <h1>Vite + React Learning App</h1>
+      <h1>Learning App</h1>
       <h4>{apiUrl}</h4>
     </>
   );
