@@ -4,7 +4,7 @@ import App from "../App";
 describe("LoginPage component", () => {
   test("app component loading", () => {
     render(<App />);
-    var appComponent = screen.getByTestId("login-text");
+    let appComponent = screen.getByTestId("login-text");
     expect(appComponent).toBeInTheDocument();
   });
 });
