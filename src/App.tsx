@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   const apiUrl = import.meta.env.VITE_API_URL;
-  var x = 10;
+  const x: any = 10;
   return (
     <>
       <h1>Learning App</h1>
